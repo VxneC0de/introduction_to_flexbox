@@ -5,6 +5,8 @@
     height: 100%;
 }
 
+/*Part 1*/
+
 .itemOne{
     background-color: lightblue;
     padding: 16px;
@@ -33,6 +35,8 @@
     flex: 1;
 }
 
+/*Part 2*/
+
 .itemTwo {
     display: flex;
     flex-direction: row;
@@ -41,11 +45,10 @@
 
 .TwoFaOne, .TwoFaTwo {
     flex: 1;
-    height: 100%; /* Cambia a 100% */
 }
 
 .TwoFaOne {
-    padding: 4px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
 }
@@ -58,7 +61,7 @@
 }
 
 .TwoFaTwo {
-    padding: 4px;
+    padding: 8px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -71,5 +74,33 @@
     padding: 4px;
     height: 6rem;
     flex: 1;
+}
+
+/*Part 3*/
+
+.itemThree {
+    background-color: lightblue;
+    padding: 16px;
+    border: 4px solid blue;
+    margin: 8px;
+    display: flex;
+    gap: 5px;
+}
+
+.itemThreeOne {
+    background-color: rgb(202, 195, 226);
+    border: 4px solid rgb(97, 81, 153);
+    padding: 4px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.itemThreeTwo {
+    background-color: peachpuff;
+    border: 4px solid salmon;
+    flex: 1; 
 }
 
