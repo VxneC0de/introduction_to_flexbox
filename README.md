@@ -4,7 +4,7 @@
 
 > A section was created for the Odin Project exercises, specifically the three images related to Flexbox in the ‘Introduction to Flexbox’ section. For each of the exercises, HTML and CSS were used, with CSS being more prominent since each exercise required the use of Flexbox rules.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/screenshot.jpeg)
 
 Additional description about the project and its features.
 
