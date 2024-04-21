@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://get.wallhere.com/photo/simple-background-sky-green-blue-pattern-texture-circle-textured-color-cloud-wave-shape-line-computer-wallpaper-257762.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 8px 8px 2px rgba(0, 0, 0, 0.671);
+}
+
+.index ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.index ol li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+a{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
+}
+
+li img{
+    border: 3px solid rgb(10, 37, 46);
+}
